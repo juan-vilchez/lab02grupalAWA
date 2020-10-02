@@ -13,7 +13,7 @@
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,600,800,900' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
     </head> 
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <body class="myPage2" data-spy="scroll" data-target=".navbar" data-offset="60">
         <div class="main-header" id="main-header">
             <nav class="navbar mynav navbar-fixed-top">
                 <div class="container">
@@ -22,29 +22,60 @@
                     <a class="navbar-brand" href="#">ACME</a> </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#banner">Inicio</a></li>
+                    <li><a href="#banner">Inicio</a></li>
                     <li><a href="#work">Nuestros Servicios</a></li>
                     <li><a href="#nosostros">Nosotros</a></li>
                     <li><a href="#testimonials">Catálogo de clientes</a></li>
-                    <li><a href="#contact">Contáctenos</a></li>
+                    <li  class="active"><a href="#contact">Contáctenos</a></li>
                     </ul>
                 </div>
                 </div>
             </nav>
-            </div>
-        <div class="banner" id="banner">
-        <div class="bg-overlay">
+        </div>
+        
+        <div class="contact" id="contact">
             <div class="container">
-            <div class="row">
+              <div class="row">
                 <div class="col-md-12">
-                <div class="banner-text">
-                    <h2>Bienvenidos a la empresa <span>ACME</span></h2>
-                    <p>xdxdxdxdxd</p>
-                    <a href="#" class="banner-button">Ver más</a> </div>
+                  <div class="text-center">
+                    <h3>Contactenos</h3>
+                  </div>
                 </div>
+                <div class="col-md-7 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10">
+                  <div class="contact-form">
+                    <form role="form">
+                      <div class="col-md-6">
+                        <input type="text" class="form-control" id="Name" placeholder="Nombre">
+                      </div>
+                      <div class="col-md-6">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="col-md-12">
+                        <textarea class="form-control" placeholder="Mensaje" rows="6"></textarea>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="contact-button">Enviar Mensaje</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
+                  <div class="address">
+                    <h4>Direccion</h4>
+                    <p>123,<br>
+                        Urb. Monterrey Lote D-8, José Luis Bustamante y Rivero Lima<br>
+                    <div class="email"><i class="fa fa-at"></i>Acme@acme.com.pe<br>
+                      <i class="fa fa-mobile"></i>123 456 789</div>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
-        </div>
-        </div>
+          </div>
+
+
+
+
+
     </body>
 </html>
