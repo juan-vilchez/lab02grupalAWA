@@ -8,6 +8,8 @@
 body {
 	background-image: url("https://i.blogs.es/e32e91/trucos-enfocar-fotografia-paisaje-01/1366_2000.jpg");
 	font-family: 'Work Sans', sans-serif;
+	
+	
 }
 .myPage2{
 	
@@ -244,7 +246,6 @@ a {
 .call-to-action {
 	background-attachment: fixed;
 	background-color: #645862;
-	background-image: url(images/background.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-size: cover;
