@@ -6,7 +6,7 @@ const port = 8080;
 const server = http.createServer((req, res) => {
     let filePath = path.join(
         __dirname,
-        req.url === "/" ? "servicios.html" : req.url
+        req.url === "/" ? "index.html" : req.url
     );
 
     let extName = path.extname(filePath);
